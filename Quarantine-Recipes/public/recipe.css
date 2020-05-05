@@ -1,0 +1,175 @@
+.hide {
+	style.visibility="hidden";
+	display: none;
+}
+
+.visible {
+	style.visibility="visible";
+}
+
+.username-label {
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 100%;
+	font-family: "Comic Sans MS",cursive;
+	font-size: 100%;
+	color: #FFF5EE;
+}
+
+.input-username {
+	width: 30%;
+	border: none;
+	font-family: "Comic Sans MS";
+	font-size: 100%;
+	color: #000000;
+}
+
+.notification-bar {
+	margin-top: 1%;
+	text-align: center;
+	font-family: "Tangerine", cursive, fantasy, serif;
+	font-size: 150%;
+	height: 5%;
+	color: #FFD700;
+}
+
+.logout {
+	margin-top: 1%;
+}
+
+.html {
+	box-sizing: border-box;
+	width: 100%;
+	margin-right: -350px;
+	padding: 0;
+	background: url(https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/1719281/910/490/m2/fpnw/wm0/vegetables4_b72-.jpg?1475437662&s=c4e4248144c8d7a9207cb02db504ed9b);
+	background-size: cover;
+}
+
+.recipe-list {
+	height: 450px;
+	width: 100%;
+	margin: 0%;
+	overflow-x: scroll;
+	overflow-y: scroll;
+	text-align: left;
+	text-align: center;
+	padding: 0%;
+}
+
+.recipe {
+	overflow-y: inherit;
+	width: 100%;
+	font-size: 115%;
+	font-family: "Comic Sans MS";
+	color: #FFF5EE;
+	text-align: center;
+}
+
+.recipe-description {
+	color: #FFF5EE;
+	height: 450px;
+	text-align: center;
+	font-family: "Comic Sans MS";
+	font-size: 110%;
+	flex-direction: row;
+}
+
+.return {
+	text-align: center;
+}
+
+.add-recipe-form {
+	flex-direction: row;
+	height: 450px;
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	align-content: center;
+}
+
+.recipe-name {
+	height: 10%;
+	font-size: 100%;
+	width: 30%;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	font-family: "Comic Sans MS";
+	font-size: 100%;
+	background-color: #FFFFF0;
+}
+
+.recipe-ingredients {
+	width: 80%;
+	margin-top: 2%;
+	height: 30%;
+	border: 3px solid #cccccc;
+	font-family: Tahoma, sans-serif;
+	background-color: #FFFFF0;
+	color: black;
+	font-family: "Comic Sans MS";
+}
+
+.recipe-steps {
+	width: 80%;
+	margin-top: 2%;
+	height: 60%;
+	border: 3px solid #cccccc;
+	font-family: Tahoma, sans-serif;
+	background-color: #FFFFF0;
+	color: black;
+	font-family: "Comic Sans MS";
+}
+
+h4 {
+	color: #DAA520;
+	margin: 0%;
+	margin-top: 2%;
+	font-family: fantasy;
+}
+
+h3 {
+	color: #DAA520;
+	font-family: fantasy;
+	font-size: 120%;
+	height: 10%;
+	margin-top: 1%;
+}
+
+span {
+	font-family: "Comic Sans MS";
+	font-size: 110%;
+}
+
+h1 {
+	color: #DAA520;
+	font-family: "Tangerine", cursive, fantasy, serif;
+	font-style: italic;
+	font-size: 50px;
+	height: 15%;
+	text-align: center;
+	margin: 0%;
+}
+
+a {
+	color: #DAA520;
+	font-family: "Comic Sans MS";
+	font-size: 115%;
+	text-decoration: underline;
+}
+
+body {
+	text-align: center;
+	margin: 0%;
+	width: 50%;
+}
+
+button {
+	font-size: 100%;
+	margin-left: 2%;
+	border-radius: 5px;
+	font-family: "Comic Sans MS";
+	color: #000000;
+	font-style: italic;
+	text-transform: uppercase;
+}

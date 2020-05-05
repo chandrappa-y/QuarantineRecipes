@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="html">
+   <head>
+      <link rel="stylesheet" href="recipe.css">
+      <title>Recipes</title>
+   </head>
+   <h1>Quarantine Cooking Recipes!</h1>
+   <body class="body">
+      <div class="notification-bar">
+         <span></span>
+      </div>
+      <div class="login">
+         <label class="username-label">Username: <input class="input-username" /></label>
+         <button class="to-login" type="submit">Login</button>
+      </div>
+      <div class="recipes">
+         <h3>List of Recipes</h3>
+         <ul class="recipe-list">
+            <li>
+               <a href="" class="title"></a>
+               <span class="author-name"></span>
+            </li>
+         </ul>
+      </div>
+      <div class="recipe-description"></div>
+      <button class="add-new-recipe-button" type="button">Add new recipe</button>
+      <div class="add-recipe-form">
+         <div>
+            <input class="recipe-name" placeholder="Recipe Title.." />
+         </div>
+         <div>
+            <textarea class="recipe-ingredients" cols="" rows="5" placeholder="Ingredients.." ></textarea>
+         </div>
+         <div>    
+            <textarea class="recipe-steps" cols="" rows="20" placeholder="Steps.." ></textarea>
+         </div>
+         <div>    
+            <button class="add" type="submit">Add Recipe</button>
+         </div>
+      </div>
+      <div>
+         <button class="logout" type="submit">Logout</button>
+      </div>
+      <a href="" class="return">Return to homepage</a>
+      <script src="recipe.js"></script>
+   </body>
+</html>
